@@ -49,7 +49,6 @@ namespace ConsoleApplication1
         public string OutPut => "Hello world";
     }
 
-    [Export(typeof(IClient))]
     public class Client : IClient
     {
         [Import]
